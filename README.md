@@ -23,22 +23,27 @@ It allows users to input a query and retrieve the most semantically relevant doc
 - **documents.pkl** – Pickled raw document list
 - (Optional) **embeddings.npy** – Dense vector representations (not required after index is saved)
 
-## How to Use
+## Dataset Used
 
-1. **Install dependencies**
+20 Newsgroups (via scikit-learn)
+
+## Install dependencies
 
 ```bash
 pip install sentence-transformers faiss-cpu scikit-learn
 ```
+## How to Use 
 
-2. Run for the first time
+1. **Run for the first time**
+   
 This encodes documents, builds the FAISS index, and starts the interactive search loop:
 
 ```bash
 python main.py
 ```
 
-3. Search
+2. **Search**
+   
 Type your query when prompted. Example:
 
 ```bash
@@ -46,9 +51,6 @@ Type your query when prompted. Example:
 ```
 Top semantically similar results will be displayed.
 
-## Dataset Used
-
-20 Newsgroups (via scikit-learn)
 
 **Customizing**
 
