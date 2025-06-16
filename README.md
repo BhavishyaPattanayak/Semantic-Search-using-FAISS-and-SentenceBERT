@@ -47,10 +47,18 @@ python main.py
 Type your query when prompted. Example:
 
 ```bash
- Query: What's a good beginner motorcycle under $1000? 
+ Query: What is a good beginner motorcycle under $1000? 
 ```
 Top semantically similar results will be displayed.
 
+## Quickstart
+
+```bash
+git clone https://github.com/BhavishyaPattanayak/Semantic-Search-using-FAISS-and-SentenceBERT.git
+cd Semantic-Search-using-FAISS-and-SentenceBERT
+pip install -r requirements.txt
+python main.py
+```
 
 **Customizing**
 
